@@ -6,7 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * @Description:
+ * @Description: 链表节点
  * @Auther:Eric https://github.com/huronghua
  * @Date:2019-06-30 20 34
  */

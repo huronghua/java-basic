@@ -18,7 +18,7 @@ public class JDKProxy {
 
 	public static UserService getJDKProxy(UserService userService){
 
-
+		// 传入的原对象必须实现接口，因为参数需要getInterfaces()
 		UserService userServiceProxy = (UserService) Proxy.newProxyInstance(userService.getClass().getClassLoader(), userService.getClass().getInterfaces(),
 				new InvocationHandler() {
 					/**
