@@ -1,6 +1,5 @@
 package com.github.java;
 
-import com.sun.org.apache.regexp.internal.RE;
 
 /**
  * @Description:
