@@ -1,4 +1,4 @@
-package com.github.java.leetcode.thread;
+package com.github.java.juc.thread;
 
 /**
  * 通过notify实现循环依次打印ABC字符5次
