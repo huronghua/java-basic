@@ -1,5 +1,8 @@
 package com.github.java.leetcode;
 
+/**
+ * 搜索
+ */
 public class SearchMatrix_240 {
     public static boolean searchMatrix(int[][] matrix, int target) {
         int i = 0;
