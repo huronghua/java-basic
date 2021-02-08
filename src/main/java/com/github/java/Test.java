@@ -1,5 +1,8 @@
 package com.github.java;
 
+import java.util.List;
+
+import com.google.common.collect.Lists;
 
 /**
  * @Description:
@@ -12,12 +15,17 @@ public class Test {
 		return x+=1;
 	}
 
-	public static void main(String[] args) {
-		Child child = new Child();
-		child.setName();
-		System.out.println(child.getName());
-
-	}
+    public static void main(String[] args) {
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                List<Double> arraySelf = Lists.newArrayList();
+                while (true) {
+                    arraySelf.add(Math.random());
+                }
+            }
+        }).start();
+    }
 
 
 
